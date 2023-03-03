@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0px;
+                outline: 0px;
+                margin: 0px;
+            }
+            .main{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 100vh;
+               
+                background-color: rgb(240, 245, 247);
+            }
+            .left{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                
+                height:90vh;
+                width: 40%;
+                
+                padding-left: 150px;
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                height:90vh;
+                width: 50%;
+                
+                
+            }
+            .cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                width:50%;
+                height: 45vh;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .bottom{
+                display: flex;
+                flex-direction: row;
+            }
+            input[type="text"]{
+                background: transparent;
+                width:300px;
+                padding: 10px;
+                border: 1px solid rgb(230, 227, 227);
+                border-radius: 5px;
+            }
+            input[type="password"]{
+                background: transparent;
+                width:300px;
+                padding: 10px;
+                border: 1px solid rgb(230, 227, 227);
+                border-radius: 5px;
+            }
+            input[type="submit"]{
+                background-color: rgb(66, 103, 178);
+                width:300px;
+                padding: 10px;
+                border: 1px solid rgb(230, 227, 227);
+                border-radius: 5px;
+            }
+            .cont a{
+                color: rgb(66, 103, 178);
+            }
+            input[type="button"]{
+                color: white;
+                font-size: 17px;
+                background-color: rgb(4, 136, 55);
+                width:220px;
+                padding: 10px;
+                border: 1px solid rgb(230, 227, 227);
+                border-radius: 5px;
+            }
+            .bottom{
+                margin-top: 20px;
+                font: 1px;
+                font-size: small;
+              
+                margin-left: 20px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <div><h1 style="font-size: 60px; color: rgb(66, 103, 178);">facebook</h1></div><br/>
+                <div><p style="font-size: 25px;">Facebook helps you connect and share with the people in your life.</p></div>
+            </div>
+            <div class="right">
+                <div class="cont">
+                    <div><input id="a" type="text" placeholder="Email address or phone number"/></div>
+                    <div><input type="password" placeholder="Password"></div>
+                    <div><input type="submit" value="Log in" style="color: aliceblue; font-size: 17px;"></div>
+                    <div><a href="#" >Forgetton password?</a></div>
+                    <div><hr style="width: 300px;color: rgb(66, 103, 178);"/></div>
+                    <div><input type="button" value="Create New Account"></div>
+                    
+                    
+                </div>
+
+                <div class="bottom"><p style="text-align: center;"><b>Create a page</b>&nbsp for a celebrity,brand or business.</p></div>
+                
+                
+            </div>
+        </div>
+    </body>
+</html>
